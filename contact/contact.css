@@ -1,0 +1,44 @@
+.contact-us{
+  display: flex;
+  height:500px;
+  width: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Portfolio/images/click3.jpg);
+  background-size: cover;
+}
+
+.contact-desc{
+  text-align: center;
+  color: aliceblue;
+  font-family: Roboto, Arial;
+  font-size: 40px;
+}
+
+h2{
+  color: aliceblue;
+}
+
+.main{
+  display: flex;
+  height: 500px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  background-color: rgb(244, 244, 244);
+
+}
+
+.space{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.soc-icon{
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}

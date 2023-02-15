@@ -1,0 +1,31 @@
+*{
+  scroll-behavior: smooth;
+}
+p{
+  font-family: Roboto, Arial;
+  margin-top:0;
+  margin-bottom: 0;
+}
+
+body{
+  margin: 0px;
+  padding-top: 80px;
+  background: linear-gradient();
+}
+h4,h3{
+  font-family: Roboto, Arial;
+  color: white;
+}
+
+h1{
+  font-family: Roboto, Arial;
+  color: white;
+  letter-spacing:2px;
+  height: fit-content;
+  justify-content: center;
+}
+
+.cont a{
+  margin-left: 10px;
+  margin-right: 10px;
+}

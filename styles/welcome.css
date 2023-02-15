@@ -1,0 +1,51 @@
+.welcome{
+  display: flex;
+  height:500px;
+  width: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Portfolio/images/click.jpg);
+  background-size: cover;
+  margin-bottom: 40px;
+  animation: changeImage 10s ease-in-out infinite;
+}
+
+@keyframes changeImage {
+  0%,100%{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Portfolio/images/click1.jpg);
+  }
+  25%{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Portfolio/images/click.jpg);
+  }
+  50%{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Portfolio/images/click3.jpg);
+  }
+  75%{
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Portfolio/images/click.jpg);
+  }
+}
+
+.detail{
+  display: inline-block;
+  height: fit-content;
+}
+
+.contact-btn{
+  background-color: rgb(35, 106, 192);
+  color: white;
+  border: none;
+  margin-top: 30px;
+  height: 40px;
+  width: 120px;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.contact-btn:hover{
+  background-color:white;
+  color: rgb(35, 106,192);
+}
